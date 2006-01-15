@@ -1,0 +1,25 @@
+Build.PL
+Changes
+lib/Config/Generic.pm
+lib/Config/Generic/Directive.pm
+lib/Config/Generic/Element.pm
+lib/Config/Generic/ImmutableArray.pm
+lib/Config/Generic/ImmutableHash.pm
+lib/Config/Generic/NamedSection.pm
+lib/Config/Generic/Parser.pm
+lib/Config/Generic/Parser.pod
+lib/Config/Generic/Parser.y
+lib/Config/Generic/Section.pm
+lib/Config/Generic/TieWrapper.pm
+lib/Config/Generic/UnnamedSection.pm
+MANIFEST			This list of files
+META.yml
+README
+t/1.t
+t/2.t
+t/3.t
+t/invalid-1-1.rc
+t/invalid-1.spec
+t/valid-1-1.rc
+t/valid-1-2.rc
+t/valid-1.spec

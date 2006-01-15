@@ -1,0 +1,62 @@
+   # Indented commentar
+   
+# Einzelne Direktiven
+Single1 p1
+Single2 p1 p2 
+Single1EtcA p1
+Single1EtcB p1 p2 p3 p4
+Single1Opt1a p1 
+Single1Opt1b p1 p2
+Single1OptEtcA p1
+Single1OptEtcB p1 p2 p3 p4
+
+# Multiple Direktiven
+Multi1 p1
+Multi2 p1 p2 
+Multi1Etc p1
+Multi1Etc p1 p2 p3
+Multi1Opt1 p1
+Multi1Opt1 p1 p2
+Multi1OptEtc p1
+Multi1OptEtc p1 p2 p3 p4
+
+# Benötigte Direktiven
+Req1 1
+Req2 2
+
+# Nicht benötigte Direktiven
+#NReq1 1
+#NReq2 2
+
+# Gruppen
+<SingleSection1>
+    dummy w
+</SingleSection1>
+<MultiSection1>
+    dummy a
+</MultiSection1>
+<MultiSection2>
+    dummy w
+</MultiSection2>
+<MultiSection2>
+    dummy w
+</MultiSection2>
+<NamedSection1 foo>
+    dummy a
+</NamedSection1>
+<NamedSection2 foo>
+    dummy d
+</NamedSection2>
+<NamedSection2 bar>
+    dummy d
+</NamedSection2>
+
+# Benötigte Gruppen
+<ReqSingleSection>
+    dummy w
+</ReqSingleSection>
+
+# Nicht Benötigte Gruppen
+#<NReqSingleSection>
+    #dummy w
+#</NReqSingleSection>

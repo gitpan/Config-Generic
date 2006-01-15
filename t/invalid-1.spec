@@ -1,0 +1,3 @@
+# Unresolvable MetaSection
+
+NamedSectionRef invalid

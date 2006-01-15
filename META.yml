@@ -1,0 +1,37 @@
+---
+name: Config-Generic
+version: 0.01
+author:
+  - 'Nikolaus Rath, E<lt>Nikolaus@rath.orgE<gt>'
+abstract: Sophisticated Config Parsing Module
+license: perl
+requires:
+  File::Basename: 0
+  Parse::RecDescent: 0
+  Text::Balanced: 0
+  perl: 5.8.0
+provides:
+  Config::Generic:
+    file: lib/Config/Generic.pm
+    version: 0.01
+  Config::Generic::Directive:
+    file: lib/Config/Generic/Directive.pm
+  Config::Generic::Element:
+    file: lib/Config/Generic/Element.pm
+  Config::Generic::ImmutableArray:
+    file: lib/Config/Generic/ImmutableArray.pm
+  Config::Generic::ImmutableHash:
+    file: lib/Config/Generic/ImmutableHash.pm
+  Config::Generic::NamedSection:
+    file: lib/Config/Generic/NamedSection.pm
+  Config::Generic::Parser:
+    file: lib/Config/Generic/Parser.pm
+  Config::Generic::Section:
+    file: lib/Config/Generic/Section.pm
+  Config::Generic::TieWrapper:
+    file: lib/Config/Generic/TieWrapper.pm
+  Config::Generic::UnnamedSection:
+    file: lib/Config/Generic/UnnamedSection.pm
+  Parse::RecDescent::Config::Generic::Parser:
+    file: lib/Config/Generic/Parser.pm
+generated_by: Module::Build version 0.2611

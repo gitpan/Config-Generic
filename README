@@ -1,0 +1,32 @@
+Config/Generic version 0.01
+===========================
+
+
+       This module parses and verifies configuration files for you. The
+       format of config files supported by Config::Generic is inspired
+       by the well known apache config format. Additional features are
+       advanced syntactic verification using a specfile, here-documents
+       and flexible access methods.
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Build.PL
+   ./Build
+   ./Build test
+   ./Build install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+ Text::Balanced
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2003 Nikolaus Rath
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
